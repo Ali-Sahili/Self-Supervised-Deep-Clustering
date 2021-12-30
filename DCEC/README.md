@@ -5,7 +5,7 @@ Pytorch implementation of Deep Convolutional Embedded Clustering (DCEC) method p
 ![](architecture.png)
 
 ## Introduction
-Deep Convolutional Embedded Clustering (DCEC) extends DEC algorithm by replacing Stacked Auto-encoder (SAE) with convolutional Auto-encoder (CAE). In addition, to avoid features space distortion, they add the reconstruction loss ($\mathcal{L}_{recon}$) to the objective and optimize it simultaneously along with the clustering loss $\mathcal{L}_c$. To preserve the local structure of data, they propose to keep the decoder untouched by directly attaching the clustering loss to embedded layer.
+Deep Convolutional Embedded Clustering (DCEC) extends DEC algorithm by replacing Stacked Auto-encoder (SAE) with convolutional Auto-encoder (CAE). In addition, to avoid features space distortion, they add the reconstruction loss to the objective and optimize it simultaneously along with the clustering loss. To preserve the local structure of data, they propose to keep the decoder untouched by directly attaching the clustering loss to embedded layer.
 
 
 ## Requirements

@@ -5,7 +5,7 @@ PyTorch implementation of the Deep Embedded Clustering (DEC) algorithm proposed 
 ![DEC](architecture.png)
 
 ## Introduction
-Deep Embedding Clustering Algorithm learns a mapping from the data space to a lower-dimensional feature space in which it iteratively optimizes a clustering objective. They define a centroid-based probability distribution and minimize its KL divergence to an auxiliary target distribution to simultaneously improve clustering assignment and feature representation. This algorithm clusters data by simultaneously learning a set of k cluster centers $\{\mu_j\in Z\}_{j=1}^k$ in the feature space Z and the parameters $\theta$ of the DNN that maps data points into Z.
+Deep Embedding Clustering Algorithm learns a mapping from the data space to a lower-dimensional feature space in which it iteratively optimizes a clustering objective. They define a centroid-based probability distribution and minimize its KL divergence to an auxiliary target distribution to simultaneously improve clustering assignment and feature representation. This algorithm clusters data by simultaneously learning a set of k cluster centers in the feature space Z and the parameters of the DNN that maps data points into Z.
 
 ## Requirements
 - [numpy](http://www.numpy.org/)
