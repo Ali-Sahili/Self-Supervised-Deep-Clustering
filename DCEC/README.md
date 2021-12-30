@@ -3,7 +3,7 @@ Pytorch implementation of Deep Convolutional Embedded Clustering (DCEC) method p
 
 
 <p float="center">
-  <img src="architecture.png" width="520"/>
+  <img src="network.png" width="520"/>
 </p>
 
 
